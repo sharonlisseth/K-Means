@@ -1,5 +1,5 @@
 # coding=utf-8
-#K-Means pour Films
+#K-Means pour Movies
 
 from __future__ import division
 
@@ -139,7 +139,7 @@ def recalc(movies, centroides, clusters):
 	
 if __name__ == "__main__":
 
-    import ARAS_PEREZ
+    import k-means
 	
     users, movies = projet.load_data("movie_lens.csv")
     TousLesCentroides = Initialisation(movies)
